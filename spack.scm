@@ -1,7 +1,9 @@
 (use-modules (guix packages)
 	     (guix download)
 	     (guix build-system copy)
-	     (guix licenses))
+	     (guix licenses)
+	     (gnu packages)
+	     (gnu packages python))
 (package
  (name "spack")
  (version "0.16.1")
