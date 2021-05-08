@@ -1,6 +1,7 @@
 (use-modules (guix packages)
 	     (guix download)
 	     (guix build-system copy)
+	     (guix packages python)
 	     (guix licenses))
 (package
  (name "spack")
