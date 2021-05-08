@@ -26,5 +26,3 @@
    (description "Catch2 is mainly a unit testing framework for C++, but it also provides basic micro-benchmarking features, and simple BDD macros.")
    (home-page "https://github.com/catchorg/Catch2/")
    (license gpl3)))
-
-catch
