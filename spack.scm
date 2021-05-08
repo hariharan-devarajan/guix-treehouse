@@ -1,9 +1,10 @@
-(use-modules (guix packages)
-	     (guix download)
-	     (guix build-system copy)
-	     (guix licenses)
-	     (gnu packages)
-	     (gnu packages python))
+(define-module (guix packages)
+#:use-modules  (guix download)
+#:use-modules     (guix build-system copy)
+#:use-modules     (guix licenses)
+#:use-modules     (gnu packages)
+#:use-modules     (gnu packages python))
+(define-public th
 (package
  (name "spack")
  (version "0.16.1")
@@ -18,4 +19,4 @@
  (synopsis "Spack package manager")
  (description "Spack is a multi-platform package manager that builds and installs multiple versions and configurations of software.")
  (home-page "https://spack.readthedocs.io/")
- (license gpl3))
+ (license gpl3)))
