@@ -1,11 +1,11 @@
-(define-module  (catch2)
+(define-module  (catch)
   #:use-module (guix)
   #:use-module (guix packages)
   #:use-module (guix download)
   #:use-module (guix build-system cmake)
   #:use-module (guix licenses))
 
-(define-public catch2
+(define-public catch
  (package
  (name "catch2")
  (version "2.13.3")
