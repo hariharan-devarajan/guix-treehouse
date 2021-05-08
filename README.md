@@ -28,7 +28,7 @@ privileges that the
 The package definitions in this repo _extend_ [those that come with
 Guix](https://gnu.org/s/guix/packages).  To make them visible to the
 `guix` command-line tools, create the `~/.config/guix/channels.scm` file
-with the following snippet to request the `guix-hpc` _channel_:
+with the following snippet to request the `guix-treehouse` _channel_:
 
 ```scheme
 (cons (channel
@@ -38,7 +38,7 @@ with the following snippet to request the `guix-hpc` _channel_:
 ```
 
 That way, `guix pull` will systematically pull not only Guix, but also
-Guix-HPC.
+guix-treehouse.
 
 ## More information
 
@@ -53,7 +53,7 @@ The Guix manual contains useful information:
     environment;
   * on the [channels
     mechanism](https://www.gnu.org/software/guix/manual/en/html_node/Channels.html),
-    which allows you to pull in `guix-hpc` packages in addition to those
+    which allows you to pull in `guix-treehouse` packages in addition to those
     provided by Guix;
   * on
     [the `GUIX_PACKAGE_PATH` environment variable](https://www.gnu.org/software/guix/manual/html_node/Package-Modules.html#index-GUIX_005fPACKAGE_005fPATH),
