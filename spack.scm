@@ -11,7 +11,6 @@
  (version "0.16.1")
  (source (origin
 	  (method url-fetch)
-	  (file-name "spack")
 	  (uri (string-append "https://github.com/spack/spack/releases/download/v" version "/spack-" version ".tar.gz"))
 	  (sha256
 	   (base32 "0rvmasfacdksi9pk93wijb9niz74cvfk7b21xvzf17jdn8v312cd"))))
