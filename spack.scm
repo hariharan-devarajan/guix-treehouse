@@ -5,7 +5,7 @@
 #:use-module     (gnu packages)
 #:use-module     (gnu packages python))
 
-(define-public th
+(define-public spack
 (package
  (name "spack")
  (version "0.16.1")
