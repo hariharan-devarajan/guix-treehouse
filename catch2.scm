@@ -1,7 +1,7 @@
 (define-module  (guix packages)
-  #:use-modules (guix download)
-  #:use-modules (guix build-system cmake)
-  #:use-modules (guix licenses))
+  #:use-module (guix download)
+  #:use-module (guix build-system cmake)
+  #:use-module (guix licenses))
 
 (define-public th
  (package

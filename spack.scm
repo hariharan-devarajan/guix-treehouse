@@ -1,9 +1,10 @@
 (define-module (guix packages)
-#:use-modules  (guix download)
-#:use-modules     (guix build-system copy)
-#:use-modules     (guix licenses)
-#:use-modules     (gnu packages)
-#:use-modules     (gnu packages python))
+#:use-module  (guix download)
+#:use-module     (guix build-system copy)
+#:use-module     (guix licenses)
+#:use-module     (gnu packages)
+#:use-module     (gnu packages python))
+
 (define-public th
 (package
  (name "spack")
