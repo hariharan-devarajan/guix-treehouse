@@ -1,9 +1,10 @@
-(use-modules (guix packages)
-	     (guix download)
-	     (guix build-system cmake)
-	     (guix packages python)
-	     (guix licenses))
-(package
+(define-module  (guix packages)
+  #:use-modules (guix download)
+  #:use-modules (guix build-system cmake)
+  #:use-modules (guix licenses))
+
+(define-public th
+ (package
  (name "catch2")
  (version "2.13.3")
  (source (origin
@@ -19,4 +20,4 @@
  (synopsis "Catch2 Testing framework for C++")
  (description "Catch2 is mainly a unit testing framework for C++, but it also provides basic micro-benchmarking features, and simple BDD macros.")
  (home-page "https://github.com/catchorg/Catch2/")
- (license gpl3))
+ (license gpl3)))
