@@ -1,8 +1,8 @@
 (use-modules (guix packages)
 	     (guix download)
 	     (guix build-system copy)
-	     (guix packages python)
-	     (guix licenses))
+	     (guix licenses)
+	     (gnu packages python))
 (package
  (name "spack")
  (version "0.16.1")
@@ -13,6 +13,7 @@
 	  (sha256
 	   (base32 "0rvmasfacdksi9pk93wijb9niz74cvfk7b21xvzf17jdn8v312cd"))))
  (build-system copy-build-system)
+ (inputs `(("python", python)))
  (synopsis "Spack package manager")
  (description "Spack is a multi-platform package manager that builds and installs multiple versions and configurations of software.")
  (home-page "https://spack.readthedocs.io/")
