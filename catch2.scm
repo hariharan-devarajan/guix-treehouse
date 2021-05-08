@@ -1,13 +1,13 @@
-(define-module (catch)
+(define-module (catch2)
   #:use-module (guix)
   #:use-module (guix packages)
   #:use-module (guix download)
   #:use-module (guix build-system cmake)
   #:use-module (guix licenses))
 
-(define-public catch
+(define-public catch2
   (package
-   (name "catch")
+   (name "catch2")
    (version "2.13.6")
    (source
     (origin
@@ -26,5 +26,3 @@
    (description "Catch2 is mainly a unit testing framework for C++, but it also provides basic micro-benchmarking features, and simple BDD macros.")
    (home-page "https://github.com/catchorg/Catch2/")
    (license gpl3)))
-
-catch
